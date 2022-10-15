@@ -13,10 +13,13 @@
 # print(to_dict([1,2,4,3,1,5,5,3]))
 
 
-def biggest_dict(**kwargs):
-    my_dict = {'first_name':'we can do it'}
-    for k, v in kwargs.items():
-        my_dict[k]=v
-        return my_dict
+# def biggest_dict(**kwargs):
+#     my_dict = {'first_name':'we can do it'}
+#     for k, v in kwargs.items():
+#         my_dict[k]=v
+#         return my_dict
 
-print(biggest_dict(artut='Artur',syamyk='Syanyk'))
+# print(biggest_dict(artut='Artur',syamyk='Syanyk'))
+
+for i in range(8):
+    print(i)
